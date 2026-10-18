@@ -7,12 +7,15 @@ public class primeOrNot {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your number: ");
         int num = sc.nextInt();
-        boolean prime = true;
+        boolean prime = false;
 
-        for (int i = 2; i <= num; i++) {
-            if (num % i == 0) {
-                prime = false;
-                break;
+        if (num >= 2) {
+            prime = true;
+            for (int i = 2; i < num; i++) {
+                if (num % i == 0) {
+                    prime = false;
+                    break;
+                }
             }
         }
 
