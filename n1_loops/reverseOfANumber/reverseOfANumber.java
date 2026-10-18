@@ -1,3 +1,5 @@
+package n1_loops.reverseOfANumber;
+
 import java.util.Scanner;
 
 public class reverseOfANumber {
