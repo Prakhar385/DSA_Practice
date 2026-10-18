@@ -1,4 +1,4 @@
-package n1_loops.reverseOfANumber;
+package n1_loops;
 
 import java.util.Scanner;
 
